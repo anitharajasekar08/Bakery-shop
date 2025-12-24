@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#full-nav .navbar-brand {
+    font-weight: 1000;
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    color:  rgb(189, 112, 12);
+}
+
+#full-nav {
+    background-image: url(image/bake\ main.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#full-nav-items .navbar-brand {
+    font-weight: 1000;
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    color:  rgb(189, 112, 12);
+}
+
+#full-nav-items {
+    background-image: url(image/bake\ bg.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#full-nav-items .header-right a {
+    color:  rgb(189, 112, 12);
+}
+.header {
+    width: 100%;
+    position: relative; 
+    background-color: transparent;
+    transition: background-color 0.5s, top 0.3s;
+}
+.header.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: black; 
+}
+.header-right i {
+    font-size: 30px;
+    color:  rgb(189, 112, 12);
+}
+
+.header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-link.active {
+    color:  rgb(101, 59, 5);
+}
+.header .navbar-nav .nav-link {
+    color:  rgb(189, 112, 12);
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#full-nav .header-right a {
+    color: black;
+}
+
+#about p {
+    text-align: justify;
+}
+
+.maincontent {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+
+.maincontent p {
+    font-size: 30px;
+    font-weight: 600;
+    width: 1000px;
+    color: white;
+    text-align: left;
+}
+
+.maincontent button {
+    background-color: rgb(183, 109, 18);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.maincontent button:hover {
+    background-color: rgba(219, 135, 18, 0.452);
+    font-weight: bolder;
+}
+
+#best {
+    background: rgb(89, 62, 27);
+    height: 15vh;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+#product-card a {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 42, 17);
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+
+}
+
+#review .card-body img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#service p {
+    text-align: justify;
+}
+
+#ourteam h4 {
+    text-align: center;
+}
+
+#ourteam .card-body {
+    background-color: rgb(202, 136, 56);
+}
+
+#review .card {
+    background-color: rgb(176, 124, 56);
+}
+
+footer {
+    background-color: rgb(112, 66, 6);
+}
+
+footer i {
+    color: black;
+}
+
+footer img {
+    width: 140px;
+    height: 60px;
+    border: black;
+    outline: 5px solid white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+}
+
+footer ul li i {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer ul li i a:hover {
+    cursor: pointer;
+}
+
+/*conatct*/
+#map iframe {
+    width: 1000px;
+    height: 50vh;
+}
+.form-control{
+    box-shadow: none !important;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    /* Navbar */
+    #full-nav {
+        height: 60vh;
+    }
+
+    /* Mobile Toggle Menu Background */
+    .nsvbsr{
+        position: relative;
+    }
+    .navbar-collapse {
+        background-color: rgb(226, 196, 157);
+        /* same as header */
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+        z-index: 1000;
+    }
+    /* Center menu items */
+    .navbar-nav {
+        text-align: left;
+    }
+
+    /* Spacing between links */
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    #full-nav .navbar-brand {
+        font-size: 40px;
+    }
+
+    .header .navbar-nav .nav-link {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    /* Hero Text */
+    .maincontent {
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .maincontent p {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* About */
+    #about img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #about h4 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    /* Best Section */
+    #best {
+        height: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #best h1 {
+        font-size: 22px;
+    }
+
+    /* Product Cards */
+    #product-card .card {
+        margin-bottom: 20px;
+    }
+
+    #product-card a {
+        font-size: 14px;
+        height: 35px;
+    }
+
+    /* Service */
+    #service img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #service p {
+        font-size: 14px;
+    }
+
+    /* Team */
+    #ourteam .card {
+        margin-bottom: 20px;
+    }
+
+    /* Review */
+    #review .card {
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer .col-md-4 {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 25px;
+        padding-left: 30px;
+    }
+
+    footer img {
+        width: 80px;
+        margin: auto;
+    }
+}
