@@ -11,7 +11,7 @@ body {
     font-weight: 1000;
     font-family: "Dancing Script", cursive;
     font-size: 70px;
-    color:  rgb(189, 112, 12);
+    color: white;
 }
 
 #full-nav {
@@ -26,7 +26,7 @@ body {
     font-weight: 1000;
     font-family: "Dancing Script", cursive;
     font-size: 70px;
-    color:  rgb(189, 112, 12);
+    color: white;
 }
 
 #full-nav-items {
@@ -37,32 +37,36 @@ body {
 }
 
 #full-nav-items .header-right a {
-    color:  rgb(189, 112, 12);
+    color: rgb(189, 112, 12);
 }
+
 .header {
     width: 100%;
-    position: relative; 
+    position: relative;
     background-color: transparent;
     transition: background-color 0.5s, top 0.3s;
 }
+
 .header.scrolled {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: black; 
+    background-color: black;
 }
+
 .header-right i {
     font-size: 30px;
-    color:  rgb(189, 112, 12);
+    color: white;
 }
 
 .header .navbar-nav .nav-link:hover,
 .header .navbar-nav .nav-link.active {
-    color:  rgb(101, 59, 5);
+    color: rgb(255, 147, 5);
 }
+
 .header .navbar-nav .nav-link {
-    color:  rgb(189, 112, 12);
+    color: white;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 900;
@@ -191,7 +195,8 @@ footer ul li i a:hover {
     width: 1000px;
     height: 50vh;
 }
-.form-control{
+
+.form-control {
     box-shadow: none !important;
 }
 
@@ -203,9 +208,14 @@ footer ul li i a:hover {
     }
 
     /* Mobile Toggle Menu Background */
-    .nsvbsr{
+    .nsvbsr {
         position: relative;
     }
+
+    .header .navbar-nav .nav-link {
+        color: rgb(151, 89, 7);
+    }
+
     .navbar-collapse {
         background-color: rgb(226, 196, 157);
         /* same as header */
@@ -217,13 +227,33 @@ footer ul li i a:hover {
         border-radius: 0 0 10px 10px;
         padding: 10px;
     }
-    .navbar-toggler{
+
+    #full-nav .navbar-brand {
+        color: white;
+    }
+
+    .header .navbar-nav .nav-link:hover,
+    .header .navbar-nav .nav-link.active {
+        color: rgb(54, 32, 3);
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .navbar-toggler {
         margin-left: auto;
         z-index: 1000;
+        color: rgb(248, 150, 4);
     }
+
     /* Center menu items */
     .navbar-nav {
         text-align: left;
+    }
+
+    .header-right i {
+        color: rgb(144, 83, 4) !important;
     }
 
     /* Spacing between links */
